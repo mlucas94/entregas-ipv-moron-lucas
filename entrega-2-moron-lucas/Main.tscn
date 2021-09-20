@@ -34,9 +34,6 @@ __meta__ = {
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 413.003, 395.272 )
 
-[node name="Turret" parent="." instance=ExtResource( 5 )]
-position = Vector2( -77.7021, 195.049 )
-
 [node name="TurretSpawner" type="Node" parent="."]
 script = ExtResource( 6 )
 turret_scene = ExtResource( 5 )
