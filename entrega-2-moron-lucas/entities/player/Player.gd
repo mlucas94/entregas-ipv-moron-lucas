@@ -10,10 +10,10 @@ export (float) var FRICTION_WEIGHT = 0.12
 var projectile_container:Node
 var screen_size:Vector2
 
-func set_values(container:Node, viewport_size:Vector2):
+func set_values(container:Node, viewport_size:Rect2):
 	cannon.projectile_container = container
 	projectile_container = container
-	screen_size = viewport_size
+	screen_size = viewport_size.size
 	
 
 func _physics_process(delta):

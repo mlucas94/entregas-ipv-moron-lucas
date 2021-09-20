@@ -2,6 +2,6 @@ extends Node
 
 
 func _ready():
-	$Player.set_values(self, get_viewport().size)
-	$TurretSpawner.set_values($Player, self, get_viewport().size)
+	$Player.set_values(self, $Viewport.get_visible_rect())
+	$TurretSpawner.set_values($Player, self, $Viewport.get_visible_rect())
 	$TurretSpawner.spawn_turrets()

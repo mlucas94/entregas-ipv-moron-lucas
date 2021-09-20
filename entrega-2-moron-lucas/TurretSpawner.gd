@@ -11,7 +11,7 @@ var screen_size:Vector2
 func set_values(player, container, screen_size):
 	target_player = player
 	turret_container = container
-	self.screen_size = screen_size
+	self.screen_size = screen_size.size
 
 func spawn_turrets():
 	for i in range(0,3):

@@ -37,3 +37,6 @@ position = Vector2( 413.003, 395.272 )
 [node name="TurretSpawner" type="Node" parent="."]
 script = ExtResource( 6 )
 turret_scene = ExtResource( 5 )
+
+[node name="Viewport" type="Viewport" parent="."]
+size = Vector2( 800, 600 )
