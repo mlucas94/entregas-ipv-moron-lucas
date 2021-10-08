@@ -51,8 +51,8 @@ script = ExtResource( 3 )
 layer = -1
 
 [node name="Background" type="Sprite" parent="CanvasLayer"]
-position = Vector2( 519.846, 299.274 )
-scale = Vector2( 1.28138, 1.01706 )
+position = Vector2( 513.239, 299.274 )
+scale = Vector2( 1.2979, 1.01706 )
 texture = ExtResource( 5 )
 
 [node name="Environment" type="Node2D" parent="."]
